@@ -1,0 +1,37 @@
+﻿@page "/Categorias/Crear"
+
+@inject IRepositorio repositorioHTTP
+@inject NavigationManager navigationManager
+@inject IMostrarMensajes mostrarMensaje
+
+
+<FormularioCategoria OnValidSubmit="@Guardar" model="@model"></FormularioCategoria>
+
+
+@code {
+
+     DTOs.Categoria.CategoriaActualizarDTO model = new DTOs.Categoria.CategoriaActualizarDTO();
+
+    private async Task Guardar()
+    {
+        //var pregunta = await mostrarMensaje.Confirmacion("Insertar","¿Está seguro de guardar el autor?", "question");
+        //if (pregunta)
+        //{
+            var response = await repositorioHTTP.Post<DTOs.Categoria.CategoriaActualizarDTO>("Categorias", model);
+
+           
+            //if (response.Error)
+            //{
+            //   await mostrarMensaje.MostrarMensajeError("Error al guardar el Categoria");
+            //}
+            //else
+            //{
+            //    await mostrarMensaje.MostrarMensajeExitoso("Categoria guardado con éxito");
+                navigationManager.NavigateTo("/Categorias");
+        //    }
+        //}
+
+        
+    }
+
+}

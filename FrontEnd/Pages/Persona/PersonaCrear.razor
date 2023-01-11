@@ -1,0 +1,35 @@
+﻿@page "/Personas/crear"
+
+@inject IRepositorio repositorioHTTP
+@inject NavigationManager navigationManager
+@inject IMostrarMensajes mostrarMensaje
+
+
+<FormularioPersona OnValidSubmit="@Guardar" model="@model"></FormularioPersona>
+
+
+@code {
+
+    DTOs.Persona.PersonaActualizarDTO model = new DTOs.Persona.PersonaActualizarDTO();
+
+    private async Task Guardar()
+    {
+        //var pregunta = await mostrarMensaje.Confirmacion("Insertar","¿Está seguro de guardar el autor?", "question");
+        //if (pregunta)
+        //{
+        var response = await repositorioHTTP.Post<DTOs.Persona.PersonaActualizarDTO>("Personas", model);
+        //if (response.Error)
+            //{
+            //   await mostrarMensaje.MostrarMensajeError("Error al guardar el Categoria");
+            //}
+            //else
+            //{
+            //    await mostrarMensaje.MostrarMensajeExitoso("Categoria guardado con éxito");
+            navigationManager.NavigateTo("/Personas");
+        //    }
+        //}
+
+        
+    }
+
+}

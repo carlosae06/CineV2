@@ -1,0 +1,113 @@
+﻿
+@inject NavigationManager navigationManager;
+
+<EditForm Model="@model" OnValidSubmit="@OnValidSubmit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <div class="form-group row">
+        <label for="nombre" class="col-sm-2 col-form-label col-form-label-sm">Nombre:</label>
+        <div class="col-3">
+            <InputText id="nombre" class="form-control form-control-sm" @bind-Value="model.Nombre"></InputText>
+        <ValidationMessage For="@(()=> model.Nombre)" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="clasificacion" class="col-sm-2 col-form-label col-form-label-sm">Clasificacion:</label>
+        <div class="col-3">
+            <InputText id="clasificacion" class="form-control form-control-sm" @bind-Value="model.Clasificacion"></InputText>
+        <ValidationMessage For="@(()=> model.Clasificacion)" />
+         </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="fecha" class="col-sm-2 col-form-label col-form-label-sm">Fecha De Estreno:</label>
+        <div class="col-3">
+            <InputDate id="fecha" class="form-control form-control-sm" @bind-Value="model.FechaEstreno"></InputDate>
+         <ValidationMessage For="@(()=> model.FechaEstreno)" />
+         </div>
+    </div>
+    <br />
+    <div class="form-group row" >
+        <label for="protagonista" class="col-sm-2 col-form-label col-form-label-sm">Protagonista:</label>
+      <div class="col-3">
+            <InputText typeof="protagonista" id="email" class="form-control form-control-sm" @bind-Value="model.Protagonista"></InputText>
+        <ValidationMessage For="@(()=> model.Protagonista)" />
+       </div>
+    </div>
+    <br />
+     <div class="form-group row" >
+        <label for="director" class="col-sm-2 col-form-label col-form-label-sm">Director:</label>
+      <div class="col-3">
+            <InputText id="director" class="form-control form-control-sm" @bind-Value="model.Director"></InputText>
+        <ValidationMessage For="@(()=> model.Director)" />
+       </div>
+    </div>
+    <br />
+      <div class="form-group row" >
+        <label for="idioma" class="col-sm-2 col-form-label col-form-label-sm">Idioma:</label>
+        <div class="col-3">
+            <InputText id="idioma" class="form-control form-control-sm" @bind-Value="model.Idioma"></InputText>
+        <ValidationMessage For="@(()=> model.Idioma)" />
+        </div>
+    </div>
+    <br />
+     <div class="form-group row" >
+        <label for="duracion" class="col-sm-2 col-form-label col-form-label-sm">Duracion:</label>
+         <div class="col-3">
+            <InputText id="duracion" class="form-control form-control-sm" @bind-Value="model.Duracion"></InputText>
+        <ValidationMessage For="@(()=> model.Duracion)" />
+         </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="sinopsis" class="col-sm-2 col-form-label col-form-label-sm">Sinopsis:</label>
+         <div class="col-3">
+        <InputText id="sinopsis" class="form-control form-control-sm" @bind-Value="model.Sinopsis"></InputText>
+        <ValidationMessage For="@(()=> model.Sinopsis)" />
+         </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="categoria" class="col-sm-2 col-form-label col-form-label-sm">Categoria:</label>
+        <div class="col-3">
+        <InputNumber id="categoria" class="form-control form-control-sm" @bind-Value="model.IdCategoria"></InputNumber>
+        <ValidationMessage For="@(()=> model.IdCategoria)" />
+        </div>
+    </div>
+
+    <br />
+    <button class="btn btn-primary" type="submit">Guardar</button>
+    <button type="button" @onclick="cerrar" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+ 
+   
+
+</EditForm>
+
+
+
+@code {
+    [Parameter] public string modo { get; set; } = "crear";
+
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+    [Parameter] public EventCallback onCancel { get; set; }
+    [Parameter] public DTOs.Pelicula.PeliculaActualizarDTO model { get; set; }
+
+    private DTOs.Pelicula.PeliculaActualizarDTO peliculaInsertar = new DTOs.Pelicula.PeliculaActualizarDTO();
+
+    private async Task guardar()
+    {
+
+
+        await Task.Delay(2000);
+
+    }
+
+    private void cerrar() {
+
+        navigationManager.NavigateTo("/Peliculas");
+
+    }
+
+
+
+}

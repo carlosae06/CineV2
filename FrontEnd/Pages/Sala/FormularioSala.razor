@@ -1,0 +1,62 @@
+﻿@inject NavigationManager navigationManager
+
+<EditForm Model="@model" OnValidSubmit="@OnValidSubmit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <div class="form-group row">
+        <label for="ci" class="col-sm-2 col-form-label col-form-label-sm">COD:</label>
+        <div class="col-3">
+            <InputText id="cod" class="form-control form-control-sm-" @bind-Value="model.Cod"></InputText>
+        <ValidationMessage For="@(()=> model.Cod)" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="nombre" class="col-sm-2 col-form-label col-form-label-sm">Fila:</label>
+      <div class="col-3">
+            <InputNumber id="fila" class="form-control form-control-sm-" @bind-Value="model.Fila"></InputNumber>
+        <ValidationMessage For="@(()=> model.Fila)" />
+      </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="nombre" class="col-sm-2 col-form-label col-form-label-sm">Columna:</label>
+       <div class="col-3">
+            <InputNumber id="columna" class="form-control form-control-sm-" @bind-Value="model.Columna"></InputNumber>
+        <ValidationMessage For="@(()=> model.Columna)" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="nombre" class="col-sm-2 col-form-label col-form-label-sm">Capacidad:</label>
+        <div class="col-3">
+            <InputNumber id="capacidad" class="form-control form-control-sm-" @bind-Value="model.Capacidad"></InputNumber>
+        <ValidationMessage For="@(()=> model.Capacidad)" />
+        </div>
+    </div>
+    <br />
+ 
+        <button class="btn btn-primary" type="submit">Guardar</button>
+        <button type="button" @onclick="cerrar" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+
+
+</EditForm>
+
+@code {
+
+    [Parameter] public string modo { get; set; } = "crear";
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+    [Parameter] public EventCallback onCancel { get; set; }
+    [Parameter] public DTOs.Sala.SalaActualizarDTO model { get; set; }
+
+    private async Task guardar()
+    {
+        await Task.Delay(2000);
+    }
+    private void cerrar()
+    {
+
+        navigationManager.NavigateTo("/Salas");
+    }
+}
+

@@ -1,0 +1,183 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = FrontEnd
+build_property.RootNamespace = FrontEnd
+build_property.ProjectDir = C:\IIS EXPRESS\CineSistema\CineSistema\FrontEnd\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\IIS EXPRESS\CineSistema\CineSistema\FrontEnd
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Auth/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Auth/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Categoria/CategoriaCrear.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXENhdGVnb3JpYUNyZWFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Categoria/CategoriaModificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXENhdGVnb3JpYU1vZGlmaWNhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Categoria/CategoriasIndex.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXENhdGVnb3JpYXNJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Categoria/FormularioCategoria.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXEZvcm11bGFyaW9DYXRlZ29yaWEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Pelicula/FormularioPelicula.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFcRm9ybXVsYXJpb1BlbGljdWxhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Pelicula/PeliculaCrear.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFcUGVsaWN1bGFDcmVhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Pelicula/PeliculaModificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFcUGVsaWN1bGFNb2RpZmljYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Pelicula/PeliculasIndex.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFcUGVsaWN1bGFzSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Persona/FormularioPersona.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYVxGb3JtdWxhcmlvUGVyc29uYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Persona/PersonaCrear.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYVxQZXJzb25hQ3JlYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Persona/PersonaModificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYVxQZXJzb25hTW9kaWZpY2FyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Persona/PersonasIndex.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYVxQZXJzb25hc0luZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Rol/FormularioRol.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXEZvcm11bGFyaW9Sb2wucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Rol/RolCrear.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXFJvbENyZWFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Rol/RolIndex.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXFJvbEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Rol/RolModificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXFJvbE1vZGlmaWNhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Sala/FormularioSala.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsYVxGb3JtdWxhcmlvU2FsYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Sala/SalaCrear.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsYVxTYWxhQ3JlYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Sala/SalaIndex.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsYVxTYWxhSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Sala/SalaModificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsYVxTYWxhTW9kaWZpY2FyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Seccion/FormularioSeccion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VjY2lvblxGb3JtdWxhcmlvU2VjY2lvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Seccion/SeccionCrear.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VjY2lvblxTZWNjaW9uQ3JlYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Seccion/SeccionesModificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VjY2lvblxTZWNjaW9uZXNNb2RpZmljYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Usuario/FormularioUsuario.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xGb3JtdWxhcmlvVXN1YXJpby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Usuario/UsuarioCrear.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xVc3VhcmlvQ3JlYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Usuario/UsuarioIndex.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xVc3VhcmlvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Pages/Usuario/UsuarioModificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xVc3VhcmlvTW9kaWZpY2FyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Shared/Confirmacion.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbmZpcm1hY2lvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Shared/EnlacesLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVubGFjZXNMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Shared/ListadoGenerico.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExpc3RhZG9HZW5lcmljby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Shared/Paginacion.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhZ2luYWNpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4arn68henf
+
+[C:/IIS EXPRESS/CineSistema/CineSistema/FrontEnd/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-bdi9gfu4p5

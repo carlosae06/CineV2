@@ -1,0 +1,70 @@
+﻿@inject NavigationManager navigationManager
+
+<EditForm Model="@model" OnValidSubmit="@OnValidSubmit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <div class="form-group row">
+        <label for="ci" class="col-sm-2 col-form-label col-form-label-sm">Ci:</label>
+        <div class="col-3">
+            <InputText id="ci" class="form-control form-control-sm-" @bind-Value="model.Ci"></InputText>
+        <ValidationMessage For="@(()=> model.Ci)" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="nombre" class="col-sm-2 col-form-label col-form-label-sm">Nombre:</label>
+       <div class="col-3">
+            <InputText id="nombre" class="form-control form-control-sm-" @bind-Value="model.Nombre"></InputText>
+        <ValidationMessage For="@(()=> model.Nombre)" />
+       </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="nombre" class="col-sm-2 col-form-label col-form-label-sm">Apellido Paterno:</label>
+       <div class="col-3">
+        <InputText id="apellidoPaterno" class="form-control form-control-sm-" @bind-Value="model.ApellidoPaterno"></InputText>
+        <ValidationMessage For="@(()=> model.ApellidoPaterno)" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="nombre" class="col-sm-2 col-form-label col-form-label-sm">Apellido Materno:</label>
+       <div class="col-3">
+        <InputText id="apellidoMaterno" class="form-control form-control-sm-" @bind-Value="model.ApellidoMaterno"></InputText>
+        <ValidationMessage For="@(()=> model.ApellidoMaterno)" />
+       </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="nombre" class="col-sm-2 col-form-label col-form-label-sm">Telefono:</label>
+       <div class="col-3">
+            <InputText id="telefono" class="form-control form-control-sm-" @bind-Value="model.Telefono"></InputText>
+        <ValidationMessage For="@(()=> model.Telefono)" />
+       </div>
+    </div>
+    <br />
+
+        <button class="btn btn-primary" type="submit">Guardar</button>
+        <button type="button" @onclick="cerrar" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+
+
+
+</EditForm>
+
+@code {
+    [Parameter] public string modo { get; set; } = "crear";
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+    [Parameter] public EventCallback onCancel { get; set; }
+    [Parameter] public DTOs.Persona.PersonaActualizarDTO model { get; set; }
+
+    private async Task guardar()
+    {
+        await Task.Delay(2000);
+    }
+    private void cerrar()
+    {
+
+        navigationManager.NavigateTo("/Personas");
+    }
+
+}

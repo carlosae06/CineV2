@@ -1,0 +1,57 @@
+﻿@page "/Salas/editar/{id:int}"
+
+@inject IRepositorio repositorioHTTP
+@inject NavigationManager navigationManager
+@inject IMostrarMensajes mostrarMensaje
+
+<FormularioSala OnValidSubmit="@Guardar" model="@model"></FormularioSala>
+
+@code {
+    [Parameter] public int id { get; set; }
+
+    DTOs.Sala.SalaActualizarDTO model = new DTOs.Sala.SalaActualizarDTO();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ObtenerSala();
+
+    }
+
+    //obtener el autor por id
+    private async Task ObtenerSala()
+    {
+        var response = await repositorioHTTP.Get<DTOs.Sala.SalaActualizarDTO>($"Salas/{id}");
+        if (response.Error)
+        {
+            Console.WriteLine("Error");
+        }
+        else
+        {
+            model = response.Response;
+        }
+    }
+
+
+    private async Task Guardar()
+    {
+
+        //var pregunta = await mostrarMensaje.Confirmacion("Actualizar", "¿Está seguro de guardar el autor?", "question");
+
+        //if (pregunta)
+        //{
+        var response = await repositorioHTTP.Put<DTOs.Sala.SalaActualizarDTO>($"Salas/{id}", model);
+        //if (response.Error)
+            //{
+            //    await mostrarMensaje.MostrarMensajeError("Error al guardar el autor");
+            //}
+            //else
+            //{
+            //    await mostrarMensaje.MostrarMensajeExitoso("Autor actualizado con éxito");
+            navigationManager.NavigateTo("/Salas");
+        //    }
+        //}
+
+
+
+    }
+}

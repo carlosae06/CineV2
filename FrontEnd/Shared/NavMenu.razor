@@ -1,0 +1,83 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">CINE METRO</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <AuthorizeView Roles="ADM">
+            <Authorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="peliculas">
+                        <span class="oi oi-video" aria-hidden="true"></span> Peliculas
+                    </NavLink>
+                </div>
+            </Authorized>
+        </AuthorizeView>
+           <AuthorizeView Roles="ADM">
+            <Authorized>
+             <div class="nav-item px-3">
+                <NavLink class="nav-link" href="categorias">
+                    <span class="oi oi-document" aria-hidden="true"></span> Categorias
+                </NavLink>
+            </div>
+            </Authorized>
+        </AuthorizeView>
+            <AuthorizeView Roles="ADM">
+                <Authorized>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="personas">
+                            <span class="oi oi-people" aria-hidden="true"></span> Personas
+                        </NavLink>
+                    </div>
+                </Authorized>
+            </AuthorizeView>
+            <AuthorizeView Roles="ADM">
+                <Authorized>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="salas">
+                            <span class="oi oi-dashboard" aria-hidden="true"></span> Salas
+                        </NavLink>
+                    </div>
+                </Authorized>
+            </AuthorizeView>
+            <AuthorizeView Roles="ADM">
+                <Authorized>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="roles">
+                            <span class="oi oi-key" aria-hidden="true"></span> Roles
+                        </NavLink>
+                    </div>
+                </Authorized>
+            </AuthorizeView>
+        <AuthorizeView Roles="ADM">
+            <Authorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="usuarios">
+                        <span class="oi oi-person" aria-hidden="true"></span> Usuarios
+                    </NavLink>
+                </div>
+            </Authorized>
+        </AuthorizeView>
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

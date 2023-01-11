@@ -1,0 +1,13 @@
+﻿@page "/Logout"
+@inject NavigationManager navigationManager
+@inject ILoginService loginService
+
+@code {
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await loginService.Logout();
+        navigationManager.NavigateTo("/");
+    }
+
+}

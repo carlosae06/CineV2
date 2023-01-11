@@ -1,0 +1,52 @@
+﻿
+
+<EditForm Model="seccionInsetar" OnValidSubmit="guardar">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <div class="row" >
+         <label for="cod" >Cod:</label>
+         <InputText id="cod" class="form-control" @bind-Value="seccionInsetar.Cod" ></InputText>
+        <ValidationMessage For="@(()=> seccionInsetar.Cod)" />
+    </div>
+     <div class="row">
+        <label for="idSala">Sala:</label>
+        <InputNumber id="idSala" class="form-control" @bind-Value="seccionInsetar.IdSala"></InputNumber>
+        <ValidationMessage For="@(()=> seccionInsetar.IdSala)" />
+    </div>
+
+    @if (modo == "Modificar")
+    {
+         <div class="mb-3 row">
+         
+         <label for="url" >Estado:</label>
+         <div class="col-sm-8">
+                <InputCheckbox id="estado" class="form-control" @bind-Value="@seccionInsetar.Estado"></InputCheckbox>
+                <ValidationMessage For="@(()=> seccionInsetar.Estado)" />
+         </div>
+        
+         </div>
+    }
+
+    <br />
+    <div class="row" >
+         <button type="submit" class="btn btn-primary" >Guardar</button>
+    </div>
+   
+
+</EditForm>
+
+
+
+@code {
+    [Parameter] public string modo { get; set; } = "crear";
+    private DTOs.Seccion.SeccionActualizarDTO seccionInsetar = new DTOs.Seccion.SeccionActualizarDTO();
+
+    private async Task guardar()
+    {
+       
+
+        await Task.Delay(2000);
+
+    }
+
+
+}

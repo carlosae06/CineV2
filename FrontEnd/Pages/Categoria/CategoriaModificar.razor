@@ -1,0 +1,58 @@
+﻿@page "/Categorias/Editar/{id:int}"
+
+@inject IRepositorio repositorioHTTP
+@inject NavigationManager navigationManager
+@inject IMostrarMensajes mostrarMensaje
+
+<FormularioCategoria OnValidSubmit="@Guardar" model="@model"></FormularioCategoria>
+
+@code {
+    [Parameter] public int id { get; set; }
+
+    DTOs.Categoria.CategoriaActualizarDTO model = new DTOs.Categoria.CategoriaActualizarDTO();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ObtenerCategoria();
+
+    }
+
+    //obtener el autor por id
+    private async Task ObtenerCategoria()
+    {
+        var response = await repositorioHTTP.Get<DTOs.Categoria.CategoriaActualizarDTO>($"Categorias/{id}");
+        if (response.Error)
+        {
+            Console.WriteLine("Error");
+        }
+        else
+        {
+            model = response.Response;
+          
+        }
+    }
+
+
+    private async Task Guardar()
+    {
+
+        //var pregunta = await mostrarMensaje.Confirmacion("Actualizar", "¿Está seguro de guardar el autor?", "question");
+
+        //if (pregunta)
+        //{
+            var response = await repositorioHTTP.Put<DTOs.Categoria.CategoriaActualizarDTO>($"Categorias/{id}", model);
+            //if (response.Error)
+            //{
+            //    await mostrarMensaje.MostrarMensajeError("Error al guardar el autor");
+            //}
+            //else
+            //{
+            //    await mostrarMensaje.MostrarMensajeExitoso("Autor actualizado con éxito");
+          navigationManager.NavigateTo("/Categorias");
+        //    }
+        //}
+
+
+
+    }
+}

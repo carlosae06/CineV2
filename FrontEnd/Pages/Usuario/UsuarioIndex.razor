@@ -1,0 +1,140 @@
+﻿@page "/Usuarios"
+@inject IRepositorio repositorioHTTP
+@attribute [Authorize(Roles = "ADM")]
+@inject NavigationManager navigationManager
+@inject IMostrarMensajes mostrarMensaje
+ 
+
+<button class="btn btn-primary" @onclick="Crear">Crear</button>
+<ListadoGenerico Listado="usuarios">
+    <HayRegistroCompleto>
+      <div class="mt-5" >
+            <table class="table table-hover table-responsive-lg">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">User Name</th>
+                        <th scope="col">Password</th>
+                        <th scope="col">Correo</th>
+                        <th scope="col">Rol</th>
+                        <th scope="col">Nombre Completo</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in usuarios!)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.UserName</td>
+                            <td>@item.Password</td>
+                            <td>@item.Correo</td>
+                            <td>@item.RolNombre</td>
+                            <td>@item.PersonaNombre</td>
+                           
+                            @if (item.Estado)
+                            {
+                                <td><span class="alert-success">activo</span></td>
+                            }
+                            else
+                            {
+                                <td><span class="alert-danger">inactivo</span></td>
+                            }
+                            <td>
+                                <AuthorizeView Roles="ADM">
+                                    <button class="btn-primary" @onclick="@(()=>Modificar(item.Id))"><span class="oi oi-pencil" aria-hidden="true"></span></button>
+                                </AuthorizeView>
+                                <AuthorizeView Roles="ADM">
+                                    <button class="btn-danger" @onclick="@(()=> Eliminar(item.Id))"><span class="oi oi-delete" aria-hidden="true"></span></button>
+                                </AuthorizeView>
+                            </td>
+                        </tr>
+
+                    }
+
+                </tbody>
+            </table>
+       </div>
+
+        <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada"
+                    PaginasTotales="paginasTotales"></Paginacion>
+    </HayRegistroCompleto>
+    <NoHayRegistro>
+        <h6>no hay registros desde TEST</h6>
+    </NoHayRegistro>
+    <Cargando>
+        <h1>Esperando informaciòn</h1>
+    </Cargando>
+    
+
+</ListadoGenerico>
+
+
+@code {
+
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+    List<DTOs.Usuario.UsuarioDTO>? usuarios;
+    DTOs.ResponseListDTO<DTOs.Usuario.UsuarioDTO>? responseListDTO;
+
+    
+
+    protected override async Task OnInitializedAsync()
+    {
+        await TraerDatos();
+       
+       
+    }
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await TraerDatos(pagina);
+    }
+    private async Task TraerDatos(int pagina = 1)
+    {
+        try
+        {
+            var responseWrapper = await repositorioHTTP.Get<ResponseListDTO<DTOs.Usuario.UsuarioDTO>>($"Usuarios?Pagina={pagina}&CantidadRegistrosPorPagina=10");
+            if (!responseWrapper.Error)
+            {
+                responseListDTO = responseWrapper.Response;
+
+                usuarios = responseListDTO.value;
+                paginasTotales = responseListDTO.quanty;
+
+            }
+        }
+        catch (Exception ex)
+        {
+            var mess = ex.Message;
+        }
+    }
+
+    private void Crear()
+    {
+        navigationManager.NavigateTo("/Usuarios/Crear");
+    }
+    private void Modificar(int id)
+    {
+        navigationManager.NavigateTo($"/Usuarios/Editar/{id}");
+    }
+    private async Task Eliminar(int id)
+    {
+        //var pregunta = await mostrarMensaje.Confirmacion("Eliminar", "Esta seguro de eliminar el registro", "question");
+        //if (pregunta)
+        //{
+            var response = await repositorioHTTP.Delete<object>($"Usuarios/{id}");
+        //    if (!response.Error)
+        //    {
+        //        await mostrarMensaje.MostrarMensajeExitoso("Registro eliminado");
+                await TraerDatos();
+        //    }
+        //    else
+        //    {
+        //        await mostrarMensaje.MostrarMensajeError("Error al eliminar el registro");
+        //    }
+        //}
+    }
+}

@@ -1,0 +1,103 @@
+﻿
+@page "/"
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "ADM,VEN")]
+@inject IRepositorio repositorioHTTP
+
+<PageTitle>Index</PageTitle>
+
+<ListadoGenerico Listado="peliculas">
+    <HayRegistroCompleto>
+        <div class="mt-5">
+           <div class="row">
+               @foreach (var item in peliculas!){
+                    
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src = "img/karate-kid-portada.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Nombre</h5>
+                        <p class="card-text">@item.Sinopsis</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+
+        <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada"
+                    PaginasTotales="paginasTotales"></Paginacion>
+    </HayRegistroCompleto>
+
+</ListadoGenerico>
+
+
+
+@code
+{
+    [CascadingParameter] Task<AuthenticationState> authenticationStateTask { get; set; }
+
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+    List<DTOs.Pelicula.PeliculaDTO>? peliculas;
+    DTOs.ResponseListDTO<DTOs.Pelicula.PeliculaDTO>? responseListDTO;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authenticationState = await authenticationStateTask;
+        var user = authenticationState.User;
+        if (user.Identity.IsAuthenticated)
+        {
+            var roles = user.Claims.Where(c => c.Type == ClaimTypes.Role).Select(c => c.Value).ToList();
+            if (roles.Contains("VEN"))
+            {
+                Console.WriteLine("El usuario es tipo Venta");
+            }
+            else if (roles.Contains("ADM"))
+            {
+                Console.WriteLine("El usuario es administrador");
+            }
+        }
+
+        await TraerDatos();
+    }
+
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await TraerDatos(pagina);
+    }
+    private async Task TraerDatos(int pagina = 1)
+    {
+        try
+        {
+            var responseWrapper = await repositorioHTTP.Get<ResponseListDTO<DTOs.Pelicula.PeliculaDTO>>($"Peliculas?Pagina={pagina}&CantidadRegistrosPorPagina=10");
+            if (!responseWrapper.Error)
+            {
+                responseListDTO = responseWrapper.Response;
+
+                peliculas = responseListDTO.value;
+                paginasTotales = responseListDTO.quanty;
+
+            }
+        }
+        catch (Exception ex)
+        {
+            var mess = ex.Message;
+        }
+    }
+}
+
+        @*@page "/"
+@inject IJSRuntime js
+@using static FrontEnd.Shared.MainLayout
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+*@

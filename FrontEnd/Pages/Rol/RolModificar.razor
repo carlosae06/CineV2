@@ -1,0 +1,57 @@
+﻿@page "/Roles/editar/{id:int}"
+
+@inject IRepositorio repositorioHTTP
+@inject NavigationManager navigationManager
+@inject IMostrarMensajes mostrarMensaje
+
+<FormularioRol OnValidSubmit="@Guardar" model="@model"></FormularioRol>
+
+@code {
+    [Parameter] public int id { get; set; }
+
+    DTOs.Rol.RolActualizarDTO model = new DTOs.Rol.RolActualizarDTO();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ObtenerRol();
+
+    }
+
+    //obtener el autor por id
+    private async Task ObtenerRol()
+    {
+        var response = await repositorioHTTP.Get<DTOs.Rol.RolActualizarDTO>($"Roles/{id}");
+        if (response.Error)
+        {
+            Console.WriteLine("Error");
+        }
+        else
+        {
+            model = response.Response;
+        }
+    }
+
+
+    private async Task Guardar()
+    {
+
+        //var pregunta = await mostrarMensaje.Confirmacion("Actualizar", "¿Está seguro de guardar el autor?", "question");
+
+        //if (pregunta)
+        //{
+        var response = await repositorioHTTP.Put<DTOs.Rol.RolActualizarDTO>($"Roles/{id}", model);
+        //if (response.Error)
+            //{
+            //    await mostrarMensaje.MostrarMensajeError("Error al guardar el autor");
+            //}
+            //else
+            //{
+            //    await mostrarMensaje.MostrarMensajeExitoso("Autor actualizado con éxito");
+        navigationManager.NavigateTo("/Roles");
+        //    }
+        //}
+
+
+
+    }
+}

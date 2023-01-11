@@ -1,0 +1,57 @@
+﻿@page "/Usuarios/Editar/{id:int}"
+
+@inject IRepositorio repositorioHTTP
+@inject NavigationManager navigationManager
+@inject IMostrarMensajes mostrarMensaje
+
+<FormularioUsuario OnValidSubmit="@Guardar" model="@model"></FormularioUsuario>
+
+@code {
+    [Parameter] public int id { get; set; }
+
+    DTOs.Usuario.UsuarioActualizarDTO model = new DTOs.Usuario.UsuarioActualizarDTO();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ObtenerUsuario();
+
+    }
+
+    //obtener el autor por id
+    private async Task ObtenerUsuario()
+    {
+        var response = await repositorioHTTP.Get<DTOs.Usuario.UsuarioActualizarDTO>($"Usuarios/{id}");
+        if (response.Error)
+        {
+            Console.WriteLine("Error");
+        }
+        else
+        {
+            model = response.Response;
+        }
+    }
+
+
+    private async Task Guardar()
+    {
+
+        //var pregunta = await mostrarMensaje.Confirmacion("Actualizar", "¿Está seguro de guardar el autor?", "question");
+
+        //if (pregunta)
+        //{
+        var response = await repositorioHTTP.Put<DTOs.Usuario.UsuarioActualizarDTO>($"Usuarios/{id}", model);
+        //if (response.Error)
+            //{
+            //    await mostrarMensaje.MostrarMensajeError("Error al guardar el autor");
+            //}
+            //else
+            //{
+            //    await mostrarMensaje.MostrarMensajeExitoso("Autor actualizado con éxito");
+            navigationManager.NavigateTo("/Usuarios");
+        //    }
+        //}
+
+
+
+    }
+}

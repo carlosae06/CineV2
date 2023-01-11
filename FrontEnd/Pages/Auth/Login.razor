@@ -1,0 +1,56 @@
+﻿@page "/Login"
+@inject IRepositorio repositorioHTTP
+@inject NavigationManager navigationManager
+@inject ILoginService loginService
+
+
+<EditForm Model="usuarioLoginDTO" OnValidSubmit="login">
+       <DataAnnotationsValidator />
+
+    <div class="form-group row">
+        <label for="user" class="col-sm-2 col-form-label col-form-label-sm">Usuario</label>
+        <div class="col-3">
+            <InputText class="form-control form-control-sm-" id="user" @bind-Value="usuarioLoginDTO.UserName" />
+        <ValidationMessage For="@(() => usuarioLoginDTO.UserName)" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label for="password" class="col-sm-2 col-form-label col-form-label-sm">Password</label>
+        <div class="col-3">
+            <InputText type="password" class="form-control form-control-sm-" id="password" @bind-Value="usuarioLoginDTO.Password" />
+        <ValidationMessage For="@(() => usuarioLoginDTO.Password)" />
+        </div>
+    </div>
+    
+    <button class="btn btn-primary" type="submit">Login</button>
+       
+</EditForm>
+
+
+<h3></h3>
+
+
+@code {
+
+    UsuarioLoginDTO usuarioLoginDTO = new UsuarioLoginDTO();
+    string mensaje = "";
+
+
+    async Task login()
+    {
+        var response = await repositorioHTTP.Post<UsuarioLoginDTO,UserToken>("Usuarios/Login", usuarioLoginDTO);
+        if (response.Error)
+        {
+            mensaje = "Error al iniciar";
+
+        }
+        else
+        {
+            await loginService.Login(response.Response!);
+            navigationManager.NavigateTo("/");
+        }
+    }
+    
+
+}

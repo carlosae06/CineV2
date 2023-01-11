@@ -1,0 +1,355 @@
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\appsettings.Development.json
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\appsettings.json
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\BackEnd.exe
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\BackEnd.deps.json
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\BackEnd.runtimeconfig.json
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\BackEnd.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\BackEnd.pdb
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\AutoMapper.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Humanizer.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\MailKit.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\MimeKit.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\IIS EXPRESS\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\BackEnd.csproj.AssemblyReference.cache
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\BackEnd.AssemblyInfoInputs.cache
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\BackEnd.AssemblyInfo.cs
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\BackEnd.csproj.CoreCompileInputs.cache
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\BackEnd.MvcApplicationPartsAssemblyInfo.cs
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\staticwebassets.build.json
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\staticwebassets.development.json
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\scopedcss\bundle\BackEnd.styles.css
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\BackEnd.csproj.CopyComplete
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\BackEnd.dll
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\refint\BackEnd.dll
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\BackEnd.pdb
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\BackEnd.genruntimeconfig.cache
+C:\IIS EXPRESS\BackEnd\obj\Debug\net6.0\ref\BackEnd.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.csproj.AssemblyReference.cache
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.AssemblyInfoInputs.cache
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.AssemblyInfo.cs
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.csproj.CoreCompileInputs.cache
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.MvcApplicationPartsAssemblyInfo.cs
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\refint\BackEnd.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.pdb
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\appsettings.json
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\appsettings.Development.json
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.exe
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.deps.json
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.runtimeconfig.json
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.pdb
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\AutoMapper.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Humanizer.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\MailKit.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\MimeKit.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\staticwebassets.build.json
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\staticwebassets.development.json
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\scopedcss\bundle\BackEnd.styles.css
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.csproj.CopyComplete
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.genruntimeconfig.cache
+C:\PW II\PROYECTO FINAL\SistemaCine\BackEnd\obj\Debug\net6.0\ref\BackEnd.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\appsettings.json
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.exe
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.deps.json
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.runtimeconfig.json
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.pdb
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Humanizer.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\MailKit.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\MimeKit.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.AssemblyInfo.cs
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\scopedcss\bundle\BackEnd.styles.css
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.csproj.CopyComplete
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\refint\BackEnd.dll
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.pdb
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.genruntimeconfig.cache
+C:\Users\HP\Desktop\ProyectoFinal\SistemaCine\BackEnd\obj\Debug\net6.0\ref\BackEnd.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\appsettings.json
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\appsettings.Development.json
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.exe
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.deps.json
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.runtimeconfig.json
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\BackEnd.pdb
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\AutoMapper.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Humanizer.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\MailKit.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\MimeKit.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.csproj.AssemblyReference.cache
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.AssemblyInfoInputs.cache
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.AssemblyInfo.cs
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.csproj.CoreCompileInputs.cache
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.MvcApplicationPartsAssemblyInfo.cs
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\staticwebassets.build.json
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\staticwebassets.development.json
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\scopedcss\bundle\BackEnd.styles.css
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.csproj.CopyComplete
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\refint\BackEnd.dll
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.pdb
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\BackEnd.genruntimeconfig.cache
+C:\IIS EXPRESS\SistemaCine\BackEnd\obj\Debug\net6.0\ref\BackEnd.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\appsettings.Development.json
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\appsettings.json
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\BackEnd.exe
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\BackEnd.deps.json
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\BackEnd.runtimeconfig.json
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\BackEnd.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\BackEnd.pdb
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\AutoMapper.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Humanizer.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\MailKit.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\MimeKit.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\BackEnd.csproj.AssemblyReference.cache
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\BackEnd.AssemblyInfoInputs.cache
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\BackEnd.AssemblyInfo.cs
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\BackEnd.csproj.CoreCompileInputs.cache
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\BackEnd.MvcApplicationPartsAssemblyInfo.cs
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\staticwebassets.build.json
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\staticwebassets.development.json
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\scopedcss\bundle\BackEnd.styles.css
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\BackEnd.csproj.CopyComplete
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\BackEnd.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\refint\BackEnd.dll
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\BackEnd.pdb
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\BackEnd.genruntimeconfig.cache
+C:\IIS EXPRESS\CineSistema\CineSistema\BackEnd\obj\Debug\net6.0\ref\BackEnd.dll

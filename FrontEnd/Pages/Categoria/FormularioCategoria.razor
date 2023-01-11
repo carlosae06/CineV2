@@ -1,0 +1,41 @@
+﻿@inject NavigationManager navigationManager
+
+<EditForm Model="@model" OnValidSubmit="@OnValidSubmit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+        <div class="form-group row">
+            <label for="nombre" class="col-sm-2 col-form-label col-form-label-sm">Nombre:</label>
+            <div class="col-3">
+                <InputText id="nombre" class="form-control form-control-sm-" @bind-Value="model.Nombre"></InputText>
+                <ValidationMessage For="@(()=> model.Nombre)" />
+            </div>
+        </div>
+        <br />
+
+        <button class="btn btn-primary" type="submit">Guardar</button>
+        <button type="button" @onclick="cerrar" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+       
+</EditForm>
+
+
+@code {
+
+    [Parameter] public string modo { get; set; } = "crear";
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+    [Parameter] public EventCallback onCancel { get; set; }
+    [Parameter] public DTOs.Categoria.CategoriaActualizarDTO model { get; set; }
+
+
+
+    private async Task guardar()
+    {
+
+        await Task.Delay(2000);
+    }
+
+    private void cerrar() {
+
+        navigationManager.NavigateTo("/Categorias");
+    }
+
+
+}

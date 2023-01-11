@@ -1,0 +1,35 @@
+﻿@page "/Roles/crear"
+
+@inject IRepositorio repositorioHTTP
+@inject NavigationManager navigationManager
+@inject IMostrarMensajes mostrarMensaje
+
+
+<FormularioRol OnValidSubmit="@Guardar" model="@model"></FormularioRol>
+
+
+@code {
+
+    DTOs.Rol.RolActualizarDTO model = new DTOs.Rol.RolActualizarDTO();
+
+    private async Task Guardar()
+    {
+        //var pregunta = await mostrarMensaje.Confirmacion("Insertar","¿Está seguro de guardar el autor?", "question");
+        //if (pregunta)
+        //{
+        var response = await repositorioHTTP.Post<DTOs.Rol.RolActualizarDTO>("Roles", model);
+        //if (response.Error)
+            //{
+            //   await mostrarMensaje.MostrarMensajeError("Error al guardar el Categoria");
+            //}
+            //else
+            //{
+            //    await mostrarMensaje.MostrarMensajeExitoso("Categoria guardado con éxito");
+        navigationManager.NavigateTo("/Roles");
+        //    }
+        //}
+
+        
+    }
+
+}
